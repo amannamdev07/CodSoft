@@ -1,0 +1,64 @@
+/* Mobile CSS */
+@media screen and ((max-width : 1020px) and (min-width : 651px)) {
+    html {
+        font-size: 85%;
+    }
+
+    .container {
+        width: 55%;
+        height: 50%;
+        padding: 1rem;
+    }
+
+    .buttonsDiv {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .databtn {
+        min-width: 100%;
+    }
+}
+
+@media screen and ((max-width : 650px) and (min-width : 551px)) {
+    html {
+        font-size: 70%;
+    }
+
+    .container {
+        width: 75%;
+        height: 45%;
+        padding: 1rem;
+    }
+
+    .buttonsDiv {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .databtn {
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width : 550px) {
+    html {
+        font-size: 70%;
+    }
+
+    .container {
+        width: 95%;
+        height: 50%;
+        padding: 1rem;
+    }
+
+    .buttonsDiv {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .databtn {
+        min-width: 100%;
+    }
+}
+
