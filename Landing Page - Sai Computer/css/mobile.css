@@ -1,0 +1,278 @@
+/* For Tablet and Laptops */
+@media screen and ((max-width : 1024px) and (min-width : 721px)) {
+    html {
+        font-size: 58%;
+    }
+
+    /* Utility Classes */
+
+    /* Header Section */
+    .header {
+        flex-direction: column;
+    }
+
+    .logo {
+        font-size: 2.35rem;
+    }
+
+    .res_img {
+        width: 90%;
+    }
+
+    /* About Section */
+    .container {
+        margin-top: 3em;
+    }
+
+    .about_section {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .about_section_div {
+        margin-top: 3em;
+        flex-direction: column-reverse;
+    }
+
+    .about_section_text_div {
+        width: 90%;
+    }
+
+    .about_section_image_div {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        color: var(--white);
+    }
+
+    .about_img {
+        width: 60%;
+    }
+
+    /* Service Section */
+    .service_section {
+        width: 100%;
+        height: auto;
+    }
+
+    .service_section_card_section {
+        width: 100%;
+        margin-top: 2em;
+        flex-direction: column;
+    }
+    
+    .cards {
+        width: 90%;
+    }
+    
+    /* Product Section */
+    .product_section {
+        width: 100%;
+        height: auto;
+    }
+    
+    .product_section_div{
+        margin-top: 1em;
+        width: 80%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product_img {
+        width: 90%;
+        height: auto;
+    }
+
+    /* Contact Section */
+    .contact_section {
+        width: 100%;
+        height: auto;
+        padding-top: 1em;
+    }
+    
+    .contact_section_div {
+        flex-direction: column;
+        width: 90%;
+        gap: 2em;
+    }
+
+    .contact_section_left_div {
+        width: 90%;
+        padding: 2em;
+        gap: 3.5em;
+    }
+    
+    .contact_section_right_div {
+        width: 90%;
+        padding: 2em;
+        margin-bottom: 2em;
+    }
+
+    .contact_form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact_form_detail_div {
+        width: 80%;
+    }
+
+    .buttons_div {
+        border: 2px solid white;
+    }
+
+    /* Footer Section */
+    .footer_section {
+        margin-top: 1em;
+        width: 100%;
+        height: 8vh;
+    }   
+    
+    
+}
+
+/* For Mobile Screen */
+@media screen and (max-width : 720px) {
+    html {
+        font-size: 50%;
+    }
+
+    /* Utility Classes */
+    h1 {
+        font-size: 3.3rem;
+        font-family: var(--baloo_bhai_heading);
+        border: none !important;
+    }
+    
+    h2 {
+        font-size: 2.3rem;
+        font-family: var(--baloo_bhai_heading);
+    }
+    
+    h3 {
+        font-size: 2rem;
+        font-family: var(--baloo_bhai_heading);
+        font-weight: 400 !important;
+    }
+    
+    h4 {
+        font-size: 1.7rem;
+        font-family: var(--baloo_bhai_heading);
+        text-transform: capitalize;
+        font-weight: 400 !important;
+    }
+    
+    p {
+        font-size: 1.9rem;
+        color: var(--grey_light);
+    }
+    
+    .p_primary {
+        font-size: 1.57rem;
+        color: var(--grey_light);
+    }
+
+    /* Header Section */
+    .header {
+        flex-direction: column;
+    }
+
+    .logo {
+        font-size: 2.35rem;
+    }
+
+    .res_img {
+        width: 90%;
+        height: 70%;
+    }
+
+    /* About Section */
+    .container {
+        margin-top: 3em;
+    }
+
+    .about_section {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .about_section_div {
+        margin-top: 3em;
+        flex-direction: column-reverse;
+    }
+
+    .about_section_text_div {
+        width: 90%;
+    }
+
+    .about_section_image_div {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        color: var(--white);
+    }
+
+    /* Service Section */
+    .service_section {
+        width: 100%;
+        height: auto;
+    }
+
+    .service_section_card_section {
+        width: 100%;
+        margin-top: 2em;
+        flex-direction: column;
+    }
+    
+    .cards {
+        width: 90%;
+    }
+    
+    /* Product Section */
+    .product_section {
+        width: 100%;
+        height: auto;
+    }
+
+    .product_section_div{
+        margin-top: 1em;
+        width: 80%;
+        flex-direction: column;
+    }
+
+    /* Contact Section */
+    .contact_section {
+        width: 100%;
+        height: auto;
+        padding-top: 1em;
+    }
+    
+    .contact_section_div {
+        flex-direction: column;
+        width: 90%;
+        gap: 2em;
+    }
+
+    .contact_section_left_div {
+        width: 90%;
+        padding: 2em;
+        gap: 3.5em;
+    }
+    
+    .contact_section_right_div {
+        width: 90%;
+        padding: 2em;
+        margin-bottom: 2em;
+    }
+
+    /* Footer Section */
+    .footer_section {
+        margin-top: 1em;
+        width: 100%;
+    }   
+    
+    
+}
