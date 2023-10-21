@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and ((max-width : 650px) and (min-width : 551px)) {
+@media screen and ((max-width : 650px) and (min-width : 221px)) {
     html {
         font-size: 70%;
     }

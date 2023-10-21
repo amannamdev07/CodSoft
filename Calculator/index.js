@@ -1,6 +1,5 @@
 let string = "";
 let databtn = document.querySelectorAll('.databtn')
-let exitBtn = document.querySelector('#exitBtn')
 let clearBtn = document.querySelector('#clearBtn')
 let calBtn = document.querySelector('#calBtn')
 let backBtn = document.querySelector('#backBtn')
@@ -24,11 +23,6 @@ Array.from(databtn).forEach((databtn) => {
             document.querySelector('.resultInput').value = string;
         }
     })
-})
-
-
-exitBtn.addEventListener('click', () => {
-    window.close()
 })
 
 
