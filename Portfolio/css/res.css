@@ -1,0 +1,147 @@
+@media screen and ((max-width : 720px) and (min-width : 250px)) {
+    html {
+        font-size: 55%;
+    }
+
+    h1 {
+        font-size: 4.3rem;
+    }
+    
+    h2 {
+        font-size: 2.8rem;
+    }
+    
+    h3 {
+        font-size: 2.5rem;
+    }
+    
+    h4 {
+        font-size: 1.9rem;
+    }
+    
+    p {
+        font-size: 1.9rem;
+    }
+    
+    .p_sec {
+        font-size: 1.8rem;
+    }
+
+    /* Header Section */
+    .header_section {
+        height: 8vh;
+    }
+
+    .header_nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        font-size: 2.35rem;
+    }
+
+    .header_nav ul li a {
+        font-size: 1.625rem;
+    }
+    
+
+    /* Hero Section */
+    .hero_section {
+        flex-direction: column-reverse;
+        height: auto;
+        gap: 2.5rem;
+    }
+    
+    .hero_text_section {
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+    }
+    
+    .hero_image_section {
+        width: 80%;
+    }
+
+    .span_data_hero_section {
+        font-size: 1.87rem;
+    }
+
+    .hero_text_section .social_div {
+        width: 100%;
+    }
+
+    /* About Section */
+    .about_section_content {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .about_img_div {
+        width: 90%;
+    }
+    
+    .about_text_div {
+        width: 90%;
+    }
+
+    /* Skill Section */
+    .skill_section_content {
+        width: 100%;
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .skill_text_div {
+        width: 100%;
+        gap: 2.5rem;
+    }
+
+    .skill_img_div {
+        width: 80%;
+    }
+
+    /* Project Section */
+    .project_section {
+        height: auto;
+    }
+
+    .project_section_content {
+        flex-direction: column;
+        padding: 1.5rem;
+        gap: 4rem;
+    }
+
+    .cards {
+        margin: auto;
+        width: 80%;
+        height: auto;
+    }
+
+    /* Contact Section */
+    .contact_section {
+        height: auto;
+    }
+    
+    .contact_section_div {
+       flex-direction: column;
+       padding: 2rem;
+    }
+
+    .contact_section_left_div {
+        width: 80%;
+        gap: 4rem;
+        padding: 2rem;
+    }
+    
+    .contact_section_right_div {
+        text-align: start;
+        width: 80%;
+        padding: 2rem;
+    }
+    
+    input {
+        padding: 1rem;
+        font-size: 1.4rem;
+    }
+
+}
